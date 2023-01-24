@@ -1,14 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/style.css">
-    <title>home</title>
-</head>
-<body>
-    <h1>{{ $name }}</h1>
-    <p>{{ $email }}</p>
-</body>
-</html>
+
+{{-- reosurce from resources/views/layouts/main --}}
+@extends('layouts.main')
+
+{{-- section--}}
+@section('container')
+ <h1>ini Home</h1>   
+@endsection
