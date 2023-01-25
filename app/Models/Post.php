@@ -19,8 +19,9 @@ class Post extends Model
     //     return $posts->firstWhere('slug', $slug);
     // }
     // Post::create([
-    //     'title' => 'Ini adalah judul',
+    //     'title' => 'Ini adalah judul3',
     //     'excerpt' => 'lorem impsum dolor sit amet',
+    //     'slug' => 'ini-adalah-judul3',
     //     'body' => "ini adalah sebuah body yang berada dalam blog laravel buatan saya yang 
     //     bernama muhammad azzam muizzulhaq saya seorang tech entusisast baik dalam dunia sysadmin cloud dan juha backend dev 
     //     skill saya laravel8,ci3,cloud infracture fundamental,expressjs,react,python<p>
