@@ -10,14 +10,14 @@ class PostController extends Controller
     public function index(){
         return view('posts',[
             'title' => 'blog',
-            'posts' => Post::Semua()
+            'posts' => Post::all()
         ]);
     }
-    public function show($slug)
+    public function show($id)
     {
         return view('post', [
             'title' => 'Single Post',
-            'post' => Post::cari($slug)
+            'post' => Post::find($id)
         ]);
     }
 }
