@@ -4,6 +4,8 @@
 
 {{-- section--}}
 @section('container')
+
+  <p>Post </p>
   @foreach ($posts as $post)
   <article class="mb-5">
     {{-- gett all blog --}}
